@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_green"
+    android:background="@color/purple_200"
     tools:context=".MainActivity"
     android:id="@+id/parent">
 
@@ -12,10 +12,10 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Hello Anusha"
         android:layout_centerHorizontal="true"
-        android:text="Hello from Folakemi!"
-        android:textSize="35sp"
-        android:layout_marginTop="50dp"/>
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/button"
@@ -24,15 +24,15 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="27dp"
-        android:background="@color/black"
+        android:background="@color/purple_700"
         android:padding="10dp"
-        android:text="Click to change text color"
-        android:textColor="@color/purple_700"
+        android:text="Click to change the text color"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textColor="@color/blue_green"
+        android:textSize="21sp" />
 
     <TextView
-        android:id="@+id/chngBackgroundButton2"
+        android:id="@+id/changeBackgroundButton"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button"
@@ -41,29 +41,30 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="14dp"
-        android:background="@color/black"
-        android:padding="10dp"
+        android:background="@color/purple_700"
+        android:backgroundTint="#843991"
+        android:padding="15dp"
         android:text="Click to change background color"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
-        android:textSize="20sp" />
+        android:textColor="@color/blue_green"
+        android:textSize="21sp" />
 
     <TextView
-        android:id="@+id/chngTextButton2"
-        android:layout_width="351dp"
+        android:id="@+id/changeTextButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/chngBackgroundButton2"
+        android:layout_above="@+id/changeBackgroundButton"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginBottom="-5dp"
-        android:background="@color/black"
-        android:padding="10dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/purple_700"
+        android:padding="15dp"
         android:text="Click to change text"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
-        android:textSize="20sp" />
+        android:textColor="@color/blue_green"
+        android:textSize="21sp" />
 
 
 </RelativeLayout>

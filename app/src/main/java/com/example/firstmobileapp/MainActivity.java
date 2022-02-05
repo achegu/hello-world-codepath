@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //change the text color of the label
-               textView.setTextColor( getResources().getColor(R.color.purple_200));
+                textView.setTextColor( getResources().getColor(R.color.purple_200));
             }
         });
 
         //user can tap on button to change background color
-        findViewById(R.id.chngBackgroundButton2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.changeBackgroundButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 findViewById(R.id.parent).setBackgroundColor( getResources().getColor(R.color.white));
@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //user can change text
-        findViewById(R.id.chngTextButton2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.changeTextButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText("Code Path is Awesome");
+                textView.setText("Code Path rocks");
             }
         });
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //reset text
-                textView.setText("Hello from Folakemi!");
+                textView.setText("Hello Anusha!");
                 //reset color
                 textView.setTextColor(getResources().getColor(R.color.black));
                 //reset background
