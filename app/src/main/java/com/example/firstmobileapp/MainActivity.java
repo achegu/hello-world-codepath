@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.changeTextButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText("Code Path rocks");
+                textView.setText("Android rocks");
             }
         });
 
@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //reset text
-                textView.setText("Hello Anusha!");
+                textView.setText("Hello Anusha");
                 //reset color
                 textView.setTextColor(getResources().getColor(R.color.black));
                 //reset background
-                findViewById(R.id.parent).setBackgroundColor(getResources().getColor(R.color.blue_green));
+                findViewById(R.id.parent).setBackgroundColor(getResources().getColor(R.color.purple_200));
             }
         });
 
