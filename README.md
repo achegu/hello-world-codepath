@@ -6,7 +6,7 @@ this app can change text color and background color as well as change text when 
 
 ### App Walk-though
 
-<img src='https://user-images.githubusercontent.com/70675435/152630026-0f1bb0ee-aaea-4f4e-a868-1d9938aeec6c.gif width=200><br>
+<img src='https://user-images.githubusercontent.com/70675435/152630026-0f1bb0ee-aaea-4f4e-a868-1d9938aeec6c.gif' width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello {name}!
