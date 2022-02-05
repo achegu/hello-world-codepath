@@ -2,14 +2,14 @@
 
 
 ### App Description
-Allows user to change color of the text and the background and also reset those changes at the push of a button
+this app can change text color and background color as well as change text when the various buttons are pressed. it is a simple android application
 
 ### App Walk-though
 
-<img src='https://user-images.githubusercontent.com/71245496/149456172-cc817870-31e1-415c-8a4a-1df8b8968929.gif'  width=200><br>
+<img src='https://user-images.githubusercontent.com/70675435/152630026-0f1bb0ee-aaea-4f4e-a868-1d9938aeec6c.gif width=200><br>
 
 ### Required User Stories
-- [x] 1. User sees custom text in a label - Hello from {name}!
+- [x] 1. User sees custom text in a label - Hello {name}!
 - [x] 2. User see's custom background color.
 - [x] 3. User can tap a button to change the text color of the label.
 
